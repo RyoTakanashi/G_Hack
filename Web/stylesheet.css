@@ -14,7 +14,7 @@ a {
 }
 
 .top-wrapper {
-  padding: 180px 0 100px 0;
+  padding: 180px 0 600px 0;
   background-image: url(F1.jpg);
   background-size: cover;
   color: white;
@@ -33,11 +33,20 @@ a {
 
 .btn-wrapper {
   margin: 20px 0;
+  opacity:0.8
+}
+
+
+.colona {
+  opacity:0.6;
+
 }
 
 .btn-wrapper p {
   margin: 10px 0;
 }
+
+
 
 .newmenber {
   background-color: #808080;
@@ -52,10 +61,10 @@ a {
 
 
 .btn {
-  padding: 8px 24px;
+  padding: 10px 90px;
   color: white;
   display: inline-block;
-  opacity: 0.8;
+  opacity: 0.9;
   border-radius: 4px;
 }
 
@@ -109,7 +118,7 @@ header {
 }
 
 .lesson-wrapper {
-  height: 600px;
+  height: 500px;
   padding-bottom: 80px;
   background-color: #222222;
   text-align: center;
