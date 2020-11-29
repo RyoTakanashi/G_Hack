@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>TEAM_G</title>
+    <link rel="stylesheet" href="stylesheetG.css">
+
+    <script src="crick.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <img class="logo" src="">
+        </div>
+        <div class="header-right">
+          <a href="#" class="login"></a>
+        </div>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+<script>
+jQuery(document).ready(function() {
+var offset = 100;
+var duration = 500;
+jQuery(window).scroll(function() {
+if (jQuery(this).scrollTop() > offset) {
+jQuery('.pagetop').fadeIn(duration);
+} else {
+jQuery('.pagetop').fadeOut(duration);
+}
+});
+
+jQuery('.pagetop').click(function(event) {
+event.preventDefault();
+jQuery('html, body').animate({scrollTop: 0}, duration);
+return false;
+})
+});
+</script>
+
+    </header>
+    <div class="top-wrapper">
+      <div class="container">
+        <h1>YOU can connect community</h1>
+        <h1>Thank you for coming our Website</h1>
+        <p>富士通ハックザフューチャーteamG</p>
+        <p>このサイト作成を通して、このサイトについて知ってもらいたです。</p>
+        <div class="btn-wrapper">
+          <a href="#"  onclick="location.href='test1.html'" class="btn newmenber">新規登録</a>
+          <a href="#" onclick="location.href='test2.html'" class="btn login1">ログイン</a>
+          <p>or other 学生時代に力を入れたこと</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="lesson-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2></h2>
+        </div>
+        <div class="lessons">
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="">
+              <p>機能１</p>
+            </div>
+            <p class="txt-contents">こんな感じ</p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="">
+              <p>機能２</p>
+            </div>
+            <p class="txt-contents">こんな感じ
+</p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="">
+              <p>機能３</p>
+            </div>
+            <p class="txt-contents">こんな感じ</p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="">
+              <p>機能４</p>
+            </div>
+            <p class="txt-contents">こんな感じ</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <img src="smile3.JPG">
+        <ul class="name">
+          <li>HACK THE FUTURE</li>
+          <li>TEAM G</li>
+          <li>2</li>
+          <li>2</li>
+
+
+        </ul>
+
+      </div>
+　　　　<form action="http://formspree.io/8117048@ed.tus.ac.jp" class="form1" method="post">
+        <p>
+          名前：<input type="email" name="_replyto"　size="40">
+        </p>
+        <p>
+          ご用件：<br>
+          <textarea name="body"　rows="4" cols="40"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Send" class="sendplace">
+        </p>
+      </form>
+
+     </footer>
+
+     <div class="pagetop">↑</div>
+  </body>
+</html>
